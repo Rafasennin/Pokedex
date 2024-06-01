@@ -12,6 +12,7 @@
         <v-divider></v-divider>
         <v-card-subtitle>
           <v-img  :src="this.pokemon.isFront ? this.pokemon.front : this.pokemon.back"></v-img>
+          <v-img src="../assets/logo.png"></v-img>
         </v-card-subtitle>
         <v-divider></v-divider>
         <v-card-actions class="d-flex justify-center align-center text-center">

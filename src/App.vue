@@ -2,10 +2,6 @@
   <v-app>
     <v-main >
       <div>
-        <v-card class="d-flex justify-center align-center">
-          <v-img src="./assets/rafasennin_logo.png" :max-width="500"  aspect-ratio="16/4"></v-img>
-        </v-card>
-
         <h1 class="d-flex justify-center align-center ma-5">Pokedex</h1>
         <v-responsive class="mx-auto" max-width="344">
           <v-text-field label="Buscar Pokemon" placeholder="Digite o nome do pokemon" type="text" v-model="pokemonName"></v-text-field>
